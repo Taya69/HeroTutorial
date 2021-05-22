@@ -50,3 +50,26 @@
   input {
     padding: .5rem;
   }
+
+  .mat-list {
+    max-width: 400px;
+  }
+  .mat-list {
+    box-sizing: border-box;
+    }
+  .mat-list :hover {  
+  background-color: rgb(27, 151, 64);
+  
+  }
+  .mat-list.selected {
+    background-color: rgb(218, 29, 170);
+    color: white;
+  }
+  .mat-list.selected:hover {
+    background-color: #505050;
+    color: white;
+  }
+  .mat-list.selected:active {
+    background-color: rgb(197, 62, 62);
+    color: white;
+  }
